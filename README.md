@@ -1,2 +1,2 @@
-# task_manager_web_backend
+# task-manager-web-backend
 Проект для ведения рабочих задач, backend.

@@ -9,19 +9,19 @@ sync:
 
 # Запустить сервер разработки
 serve:
-    uv run python manage.py runserver
+    uv run python src/manage.py runserver
 
 # Создать миграции
 makemigrations:
-    uv run python manage.py makemigrations
+    uv run python src/manage.py makemigrations
 
 # Применить миграции
 migrate:
-    uv run python manage.py migrate
+    uv run python src/manage.py migrate
 
 # Создать суперпользователя
 createsuperuser:
-    uv run python manage.py createsuperuser
+    uv run python src/manage.py createsuperuser
 
 # -- Качество кода (Ruff) --
 # Запустить линтер
